@@ -17,6 +17,8 @@ import cpw.mods.fml.common.gameevent.TickEvent.PlayerTickEvent;
 import crazypants.enderio.item.darksteel.DarkSteelRecipeManager;
 import crazypants.enderio.item.darksteel.ItemDarkSteelArmor;
 
+import tterrag.supermassivetech.common.compat.enderio.GravityResistUpgrade;
+
 @Handler(HandlerType.FML)
 public class EnderIOCompat implements ICompat
 {
