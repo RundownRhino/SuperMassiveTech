@@ -1,7 +1,9 @@
 buildscript {
     repositories {
-        mavenCentral()
-        maven { url = "http://files.minecraftforge.net/maven" }
+        maven {
+			url = "https://repo1.maven.org/maven2/"
+			}
+        maven { url = "https://files.minecraftforge.net/maven" }
         maven { url = "https://oss.sonatype.org/content/repositories/snapshots/" }
     }
     dependencies { classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT' }
@@ -27,15 +29,15 @@ minecraft {
 repositories {
     maven { // WAILA
         name "Mobius Repo"
-        url "http://mobiusstrip.eu/maven"
+        url "https://mobiusstrip.eu/maven"
     }
     maven { // CCC/NEI (for WAILA)
         name 'CB Repo'
-        url "http://chickenbones.net/maven/"
+        url "https://chickenbones.net/maven/"
     }
     maven { // EnderIO & EnderCore
         name 'tterrag Repo'
-        url "http://maven.tterrag.com"
+        url "https://maven.tterrag.com"
     }
 }
 
